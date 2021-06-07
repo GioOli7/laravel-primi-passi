@@ -16,14 +16,14 @@ use Illuminate\Support\Facades\Route;
 // homepage
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 // contacts
 Route::get('/contacts', function () {
     return view('contacts');
-});
+})->name('contacts');
 
 // about us
 Route::get('/about', function () {
     return view('about');
-});
+})->name('about');

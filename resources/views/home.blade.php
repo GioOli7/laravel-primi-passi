@@ -10,9 +10,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/contacts">Contacts</a></li>
-                <li><a href="/about">About Us</a></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
+                <li><a href="{{ route('contacts') }}">Contacts</a></li>
+                <li><a href="{{ route('about') }}">About Us</a></li>
             </ul>
         </nav>
     </header>
